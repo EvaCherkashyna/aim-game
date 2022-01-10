@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aim Training | Проект 5</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Aim Training</h1>
+    
+      <a href="#" class="start">Click to start Game</a>
+    </div>
+
+    <div class="screen">
+      <h1>Choose a time</h1>
+      <h2>Game rule: You need to click as many circles as possible during the time you choose</h2>
+    
+      <ul class="time-list" id="time-list" >
+        <li>
+          <button class="time-btn"data-time="10">
+            10 sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn"data-time="20">
+            20 sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn"data-time="30">
+            30 sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn"data-time="40">
+            40 sec
+          </button>
+        </li>
+        <li>
+          <button class="time-btn"data-time="50">
+            50 sec
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen">
+      <h3>Time left <span id="time">00:00</span></h3>
+      <div class="board" id="board"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
