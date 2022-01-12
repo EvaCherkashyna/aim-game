@@ -60,3 +60,7 @@ function createRandomCircle() {
 
 # Instruction about download
  ![code](/readme/img4.png)
+ 1. Скопируйте ссылку, которую можете найти нажав на зеленую кнопку код
+ 2. В терминале git clone ___ссылка___
+ 3. Проект скопируеться в выбранную папку
+   
