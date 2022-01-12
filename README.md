@@ -4,19 +4,19 @@
 
 <hr v>
 
-# Описание
+# Description
 ![jhbfks](readme/img2.png)
-Эта игра реализирована на основе JavaScript без приминения каких либо фреймворков. __Упрощенная__ версия игры где нужно стрелять в цели на скорость, только здесь мы не стреляем, а кликаем мышкой.
+This game is implemented on the basis of JavaScript without the use of any frameworks. __Simplified__ version of the game where you need to shoot at targets at speed, only here we do not shoot, but click with the mouse.
 
-# Цель 
-__Целью__ создания этого проекта было расмотрение различных элементов и __практика__ в JavaScript.
+# Objective
+The __goal__ of creating this project was to look at various elements and __practice__ in JavaScript.
 
-+ работа с ___динамикой___
-+ создание ___таймеров___
-+ выбор рандомной ___позиции___ и ___размеров___
-+ работа с ___фунциями___
-+ работа с ___масивами___
-+ практика с принцыпами ___деструктуризации___
++ work with ___dynamics___
++ creating ___timers___
++ choice of random ___position___ and ___sizes___
++ work with ___functions___
++ work with ___arrays___
++ work with ___destructuring___
 ```JS
 function createRandomCircle() {
 
@@ -37,22 +37,22 @@ function createRandomCircle() {
     board.append(circle);
 }
 ```
-# Как играть
+# How to play
 
-Шаг первый: выберите продолжительность игры.
-<!-- ![jhbfks](readme/img1.png) -->
-Шаг второй: кликайте по цветным точкам разного размера.
-<!-- ![jhbfks](readme/img2.png) -->
-По окончанию игры вы увидете свой результат!
+Step one: choose the duration of the game.
+
+Step two: click on the colored dots of different sizes.
+
+At the end of the game you will see your result!
 
 ![jhbfks](https://media2.giphy.com/media/3VXMWNVPPo2Nqmd6q5/giphy.gif?cid=790b7611b91df30ec3b226892519295fda39f91af10d756e&rid=giphy.gif&ct=g)
 
 
 # Live Demo
-Для удобности просмотра моего проэкта __следуйте__ __инструкциям__: 
-+ после перехода по ссылке увеличте окно игры как показано на видео
-+ нажмите кнопку __бежать__ в левом верхнем иглу
-+ наслаждайтесь! 
+For the convenience of viewing my project __follow__ __instructions__:
++ after clicking on the link, increase the game window as shown in the video
++ click the __RUN__ button in the top left corner
++ enjoy it! 
 [Aim-game](https://jsfiddle.net/EvaCherkashyna/u6qegm92/)
 
 ![video-instructions](https://media3.giphy.com/media/eqmH5Af5G5neYTH3jl/giphy.gif?cid=790b7611216bd546de524985fb306c9081a8418fd078fc20&rid=giphy.gif&ct=g)
@@ -60,7 +60,7 @@ function createRandomCircle() {
 
 # Instruction about download
  ![code](/readme/img4.png)
- 1. Скопируйте ссылку, которую можете найти нажав на зеленую кнопку код
- 2. В терминале git clone ___ссылка___
- 3. Проект скопируеться в выбранную папку
+ 1. Copy the link you can find by clicking on the green button __"Сode"__
+ 2. In the terminal: git clone ___link___
+ 3. The project will be copied to the selected folder
    
